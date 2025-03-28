@@ -4,9 +4,9 @@ import { Search } from "lucide-react";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#EEEFFB]  text-[#000000] mt-[27rem] py-10">
+      <footer className="bg-[#EEEFFB]  text-[#000000]  py-10">
         <div className="max-w-6xl m-10 mx-auto px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid  grid-cols-4  gap-6">
             
             {/* <!-- Company Info --> */}
 
@@ -18,7 +18,7 @@ export default function Footer() {
                   placeholder="Enter Email Address"
                   className="px-4 py-2 w-full "
                 />
-              <button className=" w-[8rem] bg-red-400 h-full">sign up</button>
+                <button className=" w-[8rem] text-white bg-[#FB2E86] h-full">Sign Up</button>
               </div>
 
               <span className="flex items-center text text-[#8A8FB9] mt-2">
@@ -131,12 +131,11 @@ export default function Footer() {
             </div>
 
             {/* <!-- Copyright Section --> */}
-
           </div>
         </div>
-            <div className="mb-0.5ƒ bg-[#E7E4F8]   border-gray-700 pt-4 text-center text-gray-400">
-              © Your Brand. All rights reserved.
-            </div>
+        <div className="mb-0.5ƒ bg-[#E7E4F8]   border-gray-700 pt-4 text-center text-gray-400">
+          © Your Brand. All rights reserved.
+        </div>
       </footer>
     </>
   );
